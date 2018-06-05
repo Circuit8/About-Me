@@ -1,0 +1,186 @@
+body, html {
+  height: 100vh;
+}
+
+/*#########HERO BANNER#########*/
+
+.navbar {
+
+  animation-name: intronavbar;
+  animation-duration: 2s;
+}
+
+.title {
+
+  font-size: 120px;
+  animation-name: introtitle;
+  animation-duration: 2s;
+}
+
+.subtitle {
+
+  font-size: 40px;
+  animation-name: introsubtitle;
+  animation-duration: 2s;
+
+}
+
+@keyframes introsubtitle {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+  }
+
+  @keyframes introtitle {
+      0% {
+          transform: translateX(200%);
+      }
+      100% {
+          transform: translateX(0);
+      }
+    }
+
+  @keyframes intronavbar {
+        0% {
+            transform: translateY(-100%);
+        }
+        100% {
+            transform: translateY(0);
+        }
+      }
+
+
+.hero-body {
+
+  background-image: url(Banner-Mountains.jpg);
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*#########HERO BANNER END#########*/
+
+/*#########PROJECT 1#########*/
+
+.section-1 {
+
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.title-project {
+
+  color: white;
+  font-size: 40px;
+}
+
+.subtitle-project {
+
+  color: white;
+  font-size: 20px;
+}
+
+.projectI-container{
+
+  background-image: url(ProjectI-Mountains.jpg);
+  height: 200vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-content {
+
+  min-height: 80vh;
+  background-image: url(Project_1.jpg);
+  background-size: cover;
+  background-color: red;
+  opacity: 0.2;
+  transition: 1s;
+}
+
+.card-content:hover {
+  opacity: 1;
+  transition: 1s;
+}
+
+.container-projectI {
+
+  padding: 20%;
+}
+
+.card-footer {
+
+  padding: 30px;
+}
+
+.card-footer-item-top {
+
+  padding: 20px;
+  color: white;
+}
+
+/*#########PROJECT 1 END#########*/
+
+/*#########ABOUT ME#########*/
+
+.title-aboutme {
+
+  color: white;
+  font-size: 40px;
+}
+
+.subtitle-aboutme {
+
+  color: white;
+  font-size: 20px;
+}
+
+.aboutme-container {
+
+  background-image: url(aboutme-Mountains.jpg);
+  height: 110vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+.aboutme {
+
+  padding: 10% ;
+}
+
+.contentaboutme {
+
+  padding-left: 10px;
+  list-style-type: disc;
+  color: white;
+}
+
+.titleaboutme {
+
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+/*#########ABOUT ME END#########*/
+
+/*#########FOOTER#########*/
+
+.footer {
+
+  padding: 20px;
+}
+
+/*#########FOOTER END#########*/
