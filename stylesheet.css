@@ -1,5 +1,5 @@
 body, html {
-  height: 100vh;
+  height: 200vh;
 }
 
 /*#########HERO BANNER#########*/
@@ -56,7 +56,7 @@ body, html {
 .hero-body {
 
   background-image: url(Banner.JPG);
-  height: 100vh;
+  height: 110vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -89,7 +89,7 @@ body, html {
 .projectI-container{
 
   background-image: url(Project1.jpg);
-  height: 200vh;
+  height: 220vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -146,7 +146,7 @@ body, html {
 .aboutme-container {
 
   background-image: url(Aboutme.jpg);
-  height: 110vh;
+  height: 130vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
